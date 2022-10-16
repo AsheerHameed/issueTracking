@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/issueTracking/static/css/main.8c49b617.css",
+    "main.js": "/issueTracking/static/js/main.3cbc73e1.js",
+    "static/js/787.0420ccf9.chunk.js": "/issueTracking/static/js/787.0420ccf9.chunk.js",
+    "index.html": "/issueTracking/index.html",
+    "main.8c49b617.css.map": "/issueTracking/static/css/main.8c49b617.css.map",
+    "main.3cbc73e1.js.map": "/issueTracking/static/js/main.3cbc73e1.js.map",
+    "787.0420ccf9.chunk.js.map": "/issueTracking/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c49b617.css",
+    "static/js/main.3cbc73e1.js"
+  ]
+}
