@@ -32,7 +32,7 @@ export default function ClippedDrawer() {
           >
             {/* <nav> */}
             <List>
-              <NavLink to="/issuetracking" className="link">
+              <NavLink to="/issueTracking" className="link">
                 <ListItem>
                   <ListItemButton>
                     <ListItemText>Project Board</ListItemText>
