@@ -205,7 +205,6 @@ export default function BasicTextFields() {
             <button
               type="submit"
               class="btn btn-primary"
-              onClick={() => navigate("/")}
             >
               Save
             </button>
