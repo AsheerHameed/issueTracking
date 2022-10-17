@@ -13,7 +13,7 @@ export default function BasicTextFields() {
     watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => alert(JSON.stringify(data));
+  const onSubmit = () => navigate("/isuueTracking") ;
 
   const [btn, setBtn] = useState(true);
   const handleChange = (e) => {
@@ -41,7 +41,7 @@ export default function BasicTextFields() {
                 {...register("summary", {
                   required: {
                     value: true,
-                    message: "summary is required",
+                    message: "Summary is required",
                   },
                   maxLength: {
                     value: 20,
@@ -89,11 +89,11 @@ export default function BasicTextFields() {
                 {...register("desc", {
                   required: {
                     value: true,
-                    message: "Company name is required",
+                    message: "Description is required",
                   },
                   minLength: {
                     value: 3,
-                    message: "Please enter your company name",
+                    message: "Please enter description",
                   },
                   maxLength: {
                     value: 500,
@@ -138,7 +138,7 @@ export default function BasicTextFields() {
                 {...register("tag", {
                   required: {
                     value: true,
-                    message: "summary is required",
+                    message: "Summary is required",
                   },
                   maxLength: {
                     value: 100,
@@ -175,11 +175,11 @@ export default function BasicTextFields() {
                 {...register("sp", {
                   required: {
                     value: true,
-                    message: "story point is required",
+                    message: "Story point is required",
                   },
                   minLength: {
                     value: 3,
-                    message: "Please enter your company name",
+                    message: "Please enter your story points",
                   },
                   maxLength: {
                     value: 20,
@@ -205,7 +205,6 @@ export default function BasicTextFields() {
             <button
               type="submit"
               class="btn btn-primary"
-              onClick={() => navigate("/")}
             >
               Save
             </button>
