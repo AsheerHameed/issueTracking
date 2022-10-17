@@ -13,7 +13,7 @@ export default function BasicTextFields() {
     watch,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => alert(JSON.stringify(data));
+  const onSubmit = () => navigate("/issueTracking");
 
   const [btn, setBtn] = useState(true);
   const handleChange = (e) => {
@@ -202,11 +202,7 @@ export default function BasicTextFields() {
             >
               Reset
             </button>
-            <button
-              type="submit"
-              class="btn btn-primary"
-              onClick={() => navigate("/")}
-            >
+            <button type="submit" class="btn btn-primary">
               Save
             </button>
           </div>
